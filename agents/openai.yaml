@@ -1,0 +1,7 @@
+interface:
+  display_name: "数学试卷复盘"
+  short_description: "批改数学试卷，输出Word复盘报告、错题本和复测小卷。"
+  default_prompt: "Use $math-exam-review 批改我的数学试卷，并生成三个Word文件：复盘报告、错题本和复测小卷。"
+
+policy:
+  allow_implicit_invocation: true
